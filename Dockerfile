@@ -1,9 +1,9 @@
 FROM postgres
 
 ENV POSTGRES_PASSWORD postgres
-ENV POSTGRES_DB hw2
+ENV POSTGRES_DB psqldb
 
-WORKDIR /usr/repos/hw2
+WORKDIR /usr/repos/postgresql
 
 COPY ./src ./src 
 COPY src/init.sql /docker-entrypoint-initdb.d/

@@ -1,4 +1,4 @@
-CREATE TABLE ProjectRoomBookings(
+CREATE TABLE ExampleTable (
     roomNum INTEGER NOT NULL,
     startTime INTEGER NOT NULL,
     endTime INTEGER NOT NULL,
