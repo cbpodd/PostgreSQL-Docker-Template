@@ -6,3 +6,4 @@ fi
 
 sh tools/build.sh
 sh tools/login.sh
+sh tools/stop.sh
