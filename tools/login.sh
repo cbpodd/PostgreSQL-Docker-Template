@@ -1,3 +1,3 @@
 #!bin/bash
 
-docker exec -it hw2-container bash
+docker exec -it psql-container bash
